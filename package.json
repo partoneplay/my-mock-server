@@ -1,0 +1,25 @@
+{
+  "name": "my-mock-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "serve": "webpack-dev-server --dev-tool eval --progress --colors --hot --content-base build"
+  },
+  "keywords": [
+    "mock"
+  ],
+  "author": "oneplay",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.17.1",
+    "body-parser": "^1.19.0",
+    "chalk": "^4.1.0",
+    "chokidar": "^3.5.1",
+    "mockjs": "^1.1.0",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.1",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
